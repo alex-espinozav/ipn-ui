@@ -1,0 +1,90 @@
+{
+    "directorio": [
+        {
+            "zona": "NORTE",
+            "iglesia": "IPN Antofagasta",
+            "pastor": "Juan Pérez",
+            "cargo": "Presidente",
+            "pastora": "María López"
+        },
+        {
+            "zona": "CENTRO",
+            "iglesia": "IPN Santiago Centro",
+            "pastor": "Luis Rojas",
+            "cargo": "Vicepresidente",
+            "pastora": "Ana Díaz"
+        },
+        {
+            "zona": "SUR",
+            "iglesia": "IPN Concepción",
+            "pastor": "Pedro González",
+            "cargo": "Secretario",
+            "pastora": "Carmen Silva"
+        },
+        {
+            "zona": "AUSTRAL",
+            "iglesia": "IPN Punta Arenas",
+            "pastor": "Miguel Torres",
+            "cargo": "Tesorero",
+            "pastora": "Elena Martínez"
+        },
+        {
+            "zona": "METROPOLITANA",
+            "iglesia": "IPN Maipú",
+            "pastor": "Andrés Morales",
+            "cargo": "Director",
+            "pastora": "Patricia Herrera"
+        },
+        {
+            "zona": "VALLE CENTRAL",
+            "iglesia": "IPN Curicó",
+            "pastor": "Héctor Castro",
+            "cargo": "Director",
+            "pastora": "Verónica Araya"
+        },
+        {
+            "zona": "CORDILLERA",
+            "iglesia": "IPN San José de Maipo",
+            "pastor": "Ricardo Vega",
+            "cargo": "Director",
+            "pastora": "Gabriela Fuentes"
+        }
+    ],
+    "tribunal": [
+        {
+            "zona": "CENTRO",
+            "iglesia": "IPN Santiago",
+            "pastor": "Carlos Silva",
+            "cargo": "Presidente del Tribunal",
+            "pastora": "—"
+        },
+        {
+            "zona": "NORTE",
+            "iglesia": "IPN Iquique",
+            "pastor": "Francisco Muñoz",
+            "cargo": "Miembro del Tribunal",
+            "pastora": "—"
+        },
+        {
+            "zona": "SUR",
+            "iglesia": "IPN Valdivia",
+            "pastor": "Roberto Flores",
+            "cargo": "Miembro del Tribunal",
+            "pastora": "—"
+        },
+        {
+            "zona": "METROPOLITANA",
+            "iglesia": "IPN Puente Alto",
+            "pastor": "Sergio Ramírez",
+            "cargo": "Miembro del Tribunal",
+            "pastora": "—"
+        },
+        {
+            "zona": "VALLE CENTRAL",
+            "iglesia": "IPN Rancagua",
+            "pastor": "Gonzalo Reyes",
+            "cargo": "Miembro del Tribunal",
+            "pastora": "—"
+        }
+    ]
+}

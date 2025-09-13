@@ -1,79 +1,138 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* ===== Tipografías (Google Fonts) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,500;1,400&family=Roboto+Slab:wght@400;600&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/* ========= Tema (LIGHT por defecto) ========= */
+:root{
+  --ipn-primary:#1C4060;     /* azul corporativo */
+  --ipn-accent:#336F91;      /* acento / hover */
+  --ipn-secondary:#EDEDED;   /* gris claro */
+  --ipn-soft:#A8C4CC;        /* azul suave */
+  --ipn-white:#FFFFFF;
+  --ipn-black:#000000;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  /* Alias app */
+  --color-bg:var(--ipn-white);
+  --color-surface:var(--ipn-secondary);
+  --color-text:#222222;
+  --color-text-light:#555555;
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+  --color-primary:var(--ipn-primary);
+  --color-primary-hover:var(--ipn-accent);
+  --color-accent:var(--ipn-accent);
+  --border-color:#d9e1e6;
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+  /* Tipografías */
+  --font-heading:"Bebas Neue", system-ui, sans-serif;
+  --font-body:"Roboto", system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  --font-serif:"Roboto Slab", Georgia, serif;
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+  /* Layout */
+  --container-max:1100px;
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+ /* Tokens de NAVBAR */
+  --nav-height: 100px;       /* antes 80px */
+  --nav-padding-x: 2.5rem;   /* más aire a los lados */
+  --nav-logo-height: 88px;   /* antes 72px */
+  --nav-gap: 1.5rem;         /* más espacio entre links */
+  --nav-border-width: 4px;   /* borde inferior un poco más marcado */
+
+  /* Tokens de FOOTER */
+  --footer-height:70px;
+  --footer-padding:1.25rem;
+  --footer-gap:1rem;
+
+  font-family:var(--font-body);
+  line-height:1.5;
+  font-weight:400;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
-.card {
-  padding: 2em;
+/* ========= Tema OSCURO ========= */
+.dark{
+  --color-bg:#0f1f2c;
+  --color-surface:#15293a;
+  --color-text:#eef3f7;
+  --color-text-light:#cfe0ea;
+
+  --color-primary:#4a7aa0;
+  --color-primary-hover:#5f93b9;
+  --color-accent:#5f93b9;
+
+  --border-color:#274055;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* ========= Reset / base ========= */
+html,body,#app{ height:100%; }
+*{ box-sizing:border-box; }
+
+body{
+  margin:0;
+  min-width:320px;
+  min-height:100vh;
+  background:var(--color-bg);
+  color:var(--color-text);
+  font-family:var(--font-body);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* ========= Tipografía ========= */
+h1,h2,h3,.heading{
+  font-family:var(--font-heading);
+  letter-spacing:.5px;
+  margin:.25rem 0 .75rem;
+  color:var(--color-primary);
+}
+h1{ font-size:clamp(2.25rem,6vw,3.5rem); line-height:1.05; }
+h2{ font-size:clamp(1.75rem,4.5vw,2.5rem); }
+h3{ font-size:clamp(1.25rem,3vw,1.75rem); }
+p{ margin:.5rem 0; }
+.small,small{ color:var(--color-text-light); }
+strong{ font-weight:600; }
+
+/* ========= Links ========= */
+a{ color:var(--color-primary); text-decoration:none; font-weight:500; }
+a:hover{ color:var(--color-primary-hover); }
+
+/* ========= Botones ========= */
+button,.btn{
+  border-radius:10px;
+  border:1px solid transparent;
+  padding:.6em 1.2em;
+  font-size:1rem;
+  font-weight:500;
+  font-family:inherit;
+  background:var(--color-primary);
+  color:#fff;
+  cursor:pointer;
+  transition:background-color .2s, transform .15s, border-color .2s;
+}
+button:hover,.btn:hover{ background:var(--color-primary-hover); }
+button:active,.btn:active{ transform:translateY(1px); }
+.btn-outline{ background:transparent; color:var(--color-primary); border-color:var(--color-primary); }
+.btn-outline:hover{ color:#fff; background:var(--color-primary); }
+
+/* ========= Cards ========= */
+.card{
+  background:var(--color-surface);
+  border:1px solid var(--border-color);
+  border-radius:14px;
+  padding:1.5rem;
+}
+
+/* ========= Utilitarios ========= */
+.container{ max-width:var(--container-max); margin:0 auto; padding:1rem; }
+.section{ padding:2.5rem 1rem; }
+.section.alt{ background:var(--color-surface); }
+
+/* ========= App wrapper ========= */
+#app{ width:100%; min-height:100%; }
+
+/* ========= Accesibilidad ========= */
+.sr-only{
+  position:absolute !important;
+  width:1px; height:1px;
+  padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0,0,0,0);
+  white-space:nowrap; border:0;
 }

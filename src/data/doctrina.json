@@ -1,0 +1,168 @@
+{
+    "puntos": [
+        {
+            "titulo": "Dios Trino: Padre, Hijo y Espíritu Santo",
+            "slug": "dios-trino",
+            "resumen": "Creemos en un solo Dios eterno en tres Personas: Padre, Hijo y Espíritu Santo.",
+            "detalle": "Dios es uno en esencia y tres en persona. El Padre es la fuente de todo, el Hijo es el Salvador y el Espíritu Santo el Consolador. No son tres dioses, sino un solo Dios verdadero manifestado en tres Personas.",
+            "citas": [
+                {
+                    "ref": "Deuteronomio 6:4",
+                    "texto": "Oye, Israel: Jehová nuestro Dios, Jehová uno es."
+                },
+                {
+                    "ref": "Mateo 28:19",
+                    "texto": "Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo;"
+                },
+                {
+                    "ref": "2 Corintios 13:14",
+                    "texto": "La gracia del Señor Jesucristo, el amor de Dios, y la comunión del Espíritu Santo sean con todos vosotros. Amén."
+                }
+            ]
+        },
+        {
+            "titulo": "La Biblia como Palabra de Dios",
+            "slug": "la-biblia",
+            "resumen": "Creemos que la Biblia es la Palabra inspirada e infalible de Dios.",
+            "detalle": "El Antiguo y Nuevo Testamento son nuestra única regla de fe y práctica. No contiene error en lo que enseña y es lámpara a nuestros pies.",
+            "citas": [
+                {
+                    "ref": "2 Timoteo 3:16",
+                    "texto": "Toda la Escritura es inspirada por Dios, y útil para enseñar, para redargüir, para corregir, para instruir en justicia."
+                },
+                {
+                    "ref": "2 Pedro 1:21",
+                    "texto": "Porque nunca la profecía fue traída por voluntad humana, sino que los santos hombres de Dios hablaron siendo inspirados por el Espíritu Santo."
+                }
+            ]
+        },
+        {
+            "titulo": "La Salvación por Gracia mediante la Fe",
+            "slug": "salvacion",
+            "resumen": "Creemos que la salvación es un regalo de Dios recibido por fe en Jesucristo.",
+            "detalle": "El hombre es salvo por gracia, no por obras, mediante la fe en la muerte y resurrección de Cristo. La salvación se recibe y vive permaneciendo en Cristo.",
+            "citas": [
+                {
+                    "ref": "Efesios 2:8-9",
+                    "texto": "Porque por gracia sois salvos por medio de la fe... no por obras, para que nadie se gloríe."
+                },
+                {
+                    "ref": "Juan 3:16",
+                    "texto": "Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito..."
+                }
+            ]
+        },
+        {
+            "titulo": "El Pecado y la Necesidad de Arrepentimiento",
+            "slug": "pecado-arrepentimiento",
+            "resumen": "Creemos que todos pecaron y necesitan arrepentirse para alcanzar perdón.",
+            "detalle": "El pecado separa al hombre de Dios; el arrepentimiento sincero y la fe en Cristo producen perdón y reconciliación con Dios.",
+            "citas": [
+                {
+                    "ref": "Romanos 3:23",
+                    "texto": "Por cuanto todos pecaron, y están destituidos de la gloria de Dios."
+                },
+                {
+                    "ref": "Hechos 3:19",
+                    "texto": "Así que, arrepentíos y convertíos, para que sean borrados vuestros pecados..."
+                }
+            ]
+        },
+        {
+            "titulo": "El Bautismo en Agua",
+            "slug": "bautismo-agua",
+            "resumen": "Creemos en el bautismo en agua por inmersión en el nombre del Padre, del Hijo y del Espíritu Santo.",
+            "detalle": "El bautismo simboliza la muerte al pecado y la resurrección a una nueva vida en Cristo. Es un mandamiento del Señor para sus discípulos.",
+            "citas": [
+                {
+                    "ref": "Mateo 28:19",
+                    "texto": "Bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo;"
+                },
+                {
+                    "ref": "Romanos 6:4",
+                    "texto": "Porque somos sepultados juntamente con él para muerte por el bautismo..."
+                }
+            ]
+        },
+        {
+            "titulo": "El Bautismo en el Espíritu Santo",
+            "slug": "bautismo-espiritu",
+            "resumen": "Creemos en el bautismo en el Espíritu Santo con la señal inicial de hablar en otras lenguas.",
+            "detalle": "El Espíritu Santo capacita al creyente para el servicio, da poder para testificar y reparte dones para edificación de la iglesia.",
+            "citas": [
+                {
+                    "ref": "Hechos 1:8",
+                    "texto": "Pero recibiréis poder, cuando haya venido sobre vosotros el Espíritu Santo..."
+                },
+                {
+                    "ref": "Hechos 2:4",
+                    "texto": "Y fueron todos llenos del Espíritu Santo, y comenzaron a hablar en otras lenguas..."
+                }
+            ]
+        },
+        {
+            "titulo": "La Santa Cena",
+            "slug": "santa-cena",
+            "resumen": "Creemos en la práctica de la Santa Cena en memoria del sacrificio de Cristo.",
+            "detalle": "El pan y la copa representan el cuerpo y la sangre del Señor. Al participar anunciamos su muerte hasta que Él venga.",
+            "citas": [
+                {
+                    "ref": "1 Corintios 11:23-26",
+                    "texto": "Esto es mi cuerpo… Esta copa es el nuevo pacto en mi sangre… la muerte del Señor anunciáis hasta que él venga."
+                }
+            ]
+        },
+        {
+            "titulo": "La Segunda Venida de Cristo",
+            "slug": "segunda-venida",
+            "resumen": "Creemos en la venida inminente de nuestro Señor Jesucristo.",
+            "detalle": "Jesús volverá a buscar a su iglesia y establecerá su reino. Vivimos en esperanza, velando y perseverando.",
+            "citas": [
+                {
+                    "ref": "1 Tesalonicenses 4:16-17",
+                    "texto": "El Señor mismo... los muertos en Cristo resucitarán primero... seremos arrebatados..."
+                },
+                {
+                    "ref": "Juan 14:3",
+                    "texto": "Vendré otra vez, y os tomaré a mí mismo..."
+                }
+            ]
+        },
+        {
+            "titulo": "La Vida Eterna y el Juicio Final",
+            "slug": "vida-eterna-juicio",
+            "resumen": "Creemos en la vida eterna para los salvos y el castigo eterno para los que rechazan a Cristo.",
+            "detalle": "Todos comparecerán ante Dios. Los redimidos heredarán vida eterna; los incrédulos sufrirán eterna separación de Dios.",
+            "citas": [
+                {
+                    "ref": "Mateo 25:46",
+                    "texto": "E irán éstos al castigo eterno, y los justos a la vida eterna."
+                },
+                {
+                    "ref": "Apocalipsis 20:12",
+                    "texto": "Y vi a los muertos... fueron juzgados... según sus obras."
+                }
+            ]
+        },
+        {
+            "titulo": "El Matrimonio",
+            "slug": "matrimonio",
+            "resumen": "Reconocemos el Matrimonio como una bendición de Dios entre un hombre y una mujer nacidos biológicamente como tal.",
+            "detalle": "El matrimonio fue instituido por Dios desde la creación como unión sagrada, exclusiva y permanente entre un hombre y una mujer (Gn 2:24), reflejo del amor de Cristo por su Iglesia (Ef 5:31–32). Es un pacto delante de Dios, honroso en todos.",
+            "citas": [
+                {
+                    "ref": "Génesis 2:24",
+                    "texto": "Por tanto, dejará el hombre a su padre y a su madre, y se unirá a su mujer, y serán una sola carne."
+                },
+                {
+                    "ref": "Efesios 5:31",
+                    "texto": "Por esto dejará el hombre a su padre y a su madre, y se unirá a su mujer..."
+                },
+                {
+                    "ref": "Hebreos 13:4",
+                    "texto": "Honroso sea en todos el matrimonio, y el lecho sin mancilla..."
+                }
+            ]
+        }
+    ]
+}

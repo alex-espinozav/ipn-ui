@@ -1,0 +1,388 @@
+{
+    "templos": [
+        {
+            "region": "Metropolitana",
+            "nombre": "Ángel Guarello",
+            "slug": "angel-guarello",
+            "direccion": "Ángel Guarello 3045, Pedro Aguirre Cerda"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "La Granja",
+            "slug": "la-granja",
+            "direccion": "Pedro Lira #0946, La Granja"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "Los Conquistadores",
+            "slug": "los-conquistadores",
+            "direccion": "Pje. Píndaro 1514, Villa Santa Ana, Maipú"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "Puente Alto",
+            "slug": "puente-alto",
+            "direccion": "Pje. Marmaduke Grove #857, Pobl. Pa.Cerda, Puente Alto"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "Quilicura",
+            "slug": "quilicura",
+            "direccion": "Carampangue 1232, Quilicura"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "Sta. Rosa de Chena",
+            "slug": "sta-rosa-de-chena",
+            "direccion": "Pje. Lourdes #761, Pobl. 1° de Mayo, Sta. Rosa de Chena"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "El Castillo",
+            "slug": "el-castillo",
+            "direccion": "Iglesia El Castillo s/n, Talagante"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "La Islita",
+            "slug": "la-islita",
+            "direccion": "Pje. 5 de Abril #3751, Pobl. San Luis, Isla de Maipo"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "Isla de Maipo",
+            "slug": "isla-de-maipo",
+            "direccion": "Av. Jaime Guzmán 1534, Isla de Maipo"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "El Monte",
+            "slug": "el-monte",
+            "direccion": "Baquedano 705, El Monte"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "Talagante Arturo Prat",
+            "slug": "talagante-arturo-prat",
+            "direccion": "Iglesia Arturo Prat #596, Talagante"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "Melipilla",
+            "slug": "melipilla",
+            "direccion": "Calle La Bodega Sitio N°8, Los Aromos, Isla de Maipo"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "Bollenar",
+            "slug": "bollenar",
+            "direccion": "Los Maquis s/n, Población Nuevo Bollenar, Bollenar"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "Talagante Esmeralda",
+            "slug": "talagante-esmeralda",
+            "direccion": "Esmeralda #866, Talagante"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "San Antonio de Naltagua",
+            "slug": "san-antonio-de-naltagua",
+            "direccion": "Av. Los Acacios s/n, Talagante"
+        },
+        {
+            "region": "Metropolitana",
+            "nombre": "Melipilla Primera",
+            "slug": "melipilla-primera",
+            "direccion": "Arsa 40, Melipilla"
+        },
+        {
+            "region": "Valparaiso",
+            "nombre": "Rocas de Santo Domingo",
+            "slug": "rocas-de-santo-domingo",
+            "direccion": "Horacio Larraín #50, Parcela 1, Rocas de Santo Domingo"
+        },
+        {
+            "region": "Valparaiso",
+            "nombre": "San Antonio",
+            "slug": "san-antonio",
+            "direccion": "Pudeto #1890, Barranca, San Antonio, Llo-Lleo"
+        },
+        {
+            "region": "OHiggins",
+            "nombre": "Navidad I",
+            "slug": "navidad-i",
+            "direccion": "Camino Los Quelles, Navidad"
+        },
+        {
+            "region": "OHiggins",
+            "nombre": "Navidad II",
+            "slug": "navidad-ii",
+            "direccion": "Calle Los Queñes s/n, Navidad"
+        },
+        {
+            "region": "OHiggins",
+            "nombre": "Esperanza",
+            "slug": "esperanza",
+            "direccion": "Lidice N°582A, Pobl. La Esperanza, Rancagua"
+        },
+        {
+            "region": "OHiggins",
+            "nombre": "Graneros",
+            "slug": "graneros",
+            "direccion": "Calle Valparaíso #240, Graneros"
+        },
+        {
+            "region": "OHiggins",
+            "nombre": "Rancagua San Luis",
+            "slug": "rancagua-san-luis",
+            "direccion": "Colo Colo #220, Rancagua"
+        },
+        {
+            "region": "OHiggins",
+            "nombre": "Rancagua Dintrans",
+            "slug": "rancagua-dintrans",
+            "direccion": "Santa Adela 479, Rancagua"
+        },
+        {
+            "region": "OHiggins",
+            "nombre": "Rancagua Irene Frei",
+            "slug": "rancagua-irene-frei",
+            "direccion": "Calle Rancagua #506, Pobl. Irene Frei, Rancagua"
+        },
+        {
+            "region": "OHiggins",
+            "nombre": "Villa Cordillera",
+            "slug": "villa-cordillera",
+            "direccion": "Avda. El Sol s/n, Rancagua"
+        },
+        {
+            "region": "Maule",
+            "nombre": "El Trigal",
+            "slug": "el-trigal",
+            "direccion": "Avda. Poniente #2579, Villa El Trigal, Molina"
+        },
+        {
+            "region": "Maule",
+            "nombre": "Maule",
+            "slug": "maule",
+            "direccion": "Población Carlos Ibáñez Loteo 1 Sitio N°7, Talca"
+        },
+        {
+            "region": "Maule",
+            "nombre": "Molina",
+            "slug": "molina",
+            "direccion": "Igualdad #1975, Molina"
+        },
+        {
+            "region": "Maule",
+            "nombre": "Pichingal",
+            "slug": "pichingal",
+            "direccion": "Calle Principal, Pichingal s/n, Molina"
+        },
+        {
+            "region": "Maule",
+            "nombre": "Talca",
+            "slug": "talca",
+            "direccion": "2 Norte, 23 Oriente #3062, Talca"
+        },
+        {
+            "region": "Maule",
+            "nombre": "Junquillar",
+            "slug": "junquillar",
+            "direccion": "Junquillar s/n, Putú"
+        },
+        {
+            "region": "Maule",
+            "nombre": "Putú Templo Emanuel",
+            "slug": "putu-templo-emanuel",
+            "direccion": "Manuel Rodríguez s/n, Putú"
+        },
+        {
+            "region": "Maule",
+            "nombre": "Constitución",
+            "slug": "constitucion",
+            "direccion": "Freire 913, Constitución"
+        },
+        {
+            "region": "Maule",
+            "nombre": "Linares",
+            "slug": "linares",
+            "direccion": "Teresa de Calcuta #1625, Villa Carlos Camus, San Javier"
+        },
+        {
+            "region": "Maule",
+            "nombre": "Longaví",
+            "slug": "longavi",
+            "direccion": "Los Cristales s/n, Longaví"
+        },
+        {
+            "region": "Maule",
+            "nombre": "San Javier",
+            "slug": "san-javier",
+            "direccion": "Miraflores #1556, San Javier"
+        },
+        {
+            "region": "Ñuble",
+            "nombre": "Chillán 5 de Abril",
+            "slug": "chillan-5-de-abril",
+            "direccion": "5 de Abril N°32, Chillán"
+        },
+        {
+            "region": "Ñuble",
+            "nombre": "Chillán Huambalí",
+            "slug": "chillan-huambali",
+            "direccion": "Huambalí #385, Chillán"
+        },
+        {
+            "region": "Ñuble",
+            "nombre": "Chillán Viejo",
+            "slug": "chillan-viejo",
+            "direccion": "Barbosa 915, Chillán Viejo"
+        },
+        {
+            "region": "Ñuble",
+            "nombre": "Ñuble Alto",
+            "slug": "nuble-alto",
+            "direccion": "Ñuble Alto, Camino Parque Lantaño s/n, Chillán"
+        },
+        {
+            "region": "Ñuble",
+            "nombre": "San Carlos",
+            "slug": "san-carlos",
+            "direccion": "Llanquihue N°549, San Carlos, Chillán"
+        },
+        {
+            "region": "Biobio",
+            "nombre": "Chacayal",
+            "slug": "chacayal",
+            "direccion": "Caminoa Antuco Km.16, Cruce San José, Los Ángeles"
+        },
+        {
+            "region": "Biobio",
+            "nombre": "Los Ángeles",
+            "slug": "los-angeles",
+            "direccion": "Ruiz Aldea #596, Los Ángeles"
+        },
+        {
+            "region": "Biobio",
+            "nombre": "Nacimiento",
+            "slug": "nacimiento",
+            "direccion": "Jorge Montt #625, Nacimiento"
+        },
+        {
+            "region": "Biobio",
+            "nombre": "Ralco I",
+            "slug": "ralco-i",
+            "direccion": "Alto Biobío, Ralco Sitio 18, Los Ángeles"
+        },
+        {
+            "region": "Biobio",
+            "nombre": "Ralco II",
+            "slug": "ralco-ii",
+            "direccion": "Villa Ralco s/n, frente al Zag, Ralco"
+        },
+        {
+            "region": "Biobio",
+            "nombre": "Lebu",
+            "slug": "lebu",
+            "direccion": "El Mirador #113, Cerro La Cruz, Lebu"
+        },
+        {
+            "region": "Biobio",
+            "nombre": "Antihuala",
+            "slug": "antihuala",
+            "direccion": "Diego de Almagro #296, Antihuala"
+        },
+        {
+            "region": "Biobio",
+            "nombre": "Cayucupil",
+            "slug": "cayucupil",
+            "direccion": "Calle Central s/n, Cayucupil"
+        },
+        {
+            "region": "Biobio",
+            "nombre": "Curanilahue",
+            "slug": "curanilahue",
+            "direccion": "Hera #842, Curanilahue"
+        },
+        {
+            "region": "Biobio",
+            "nombre": "Sargento Aldea",
+            "slug": "sargento-aldea",
+            "direccion": "Sargento Aldea #446, Curanilahue"
+        },
+        {
+            "region": "LaAraucania",
+            "nombre": "Angol El Cañón",
+            "slug": "angol-el-canon",
+            "direccion": "Lientur esquina Valparaíso, Angol"
+        },
+        {
+            "region": "LaAraucania",
+            "nombre": "Angol El Retiro",
+            "slug": "angol-el-retiro",
+            "direccion": "Calle María Misquet 1550, Población El Retiro, Angol"
+        },
+        {
+            "region": "LaAraucania",
+            "nombre": "Angol Nuevo Amanecer",
+            "slug": "angol-nuevo-amanecer",
+            "direccion": "Iquique #0567, Población Trisal, Angol"
+        },
+        {
+            "region": "LaAraucania",
+            "nombre": "Angol Pedro de Valdivia",
+            "slug": "angol-pedro-de-valdivia",
+            "direccion": "Pedro de Valdivia #168, Angol"
+        },
+        {
+            "region": "LaAraucania",
+            "nombre": "Renaico",
+            "slug": "renaico",
+            "direccion": "Av. Alejandro Larena 018, Renaico"
+        },
+        {
+            "region": "LaAraucania",
+            "nombre": "Tijeral",
+            "slug": "tijeral",
+            "direccion": "San Pedro 141, Tijeral, Renaico"
+        },
+        {
+            "region": "LaAraucania",
+            "nombre": "Angol El Cañón II",
+            "slug": "angol-el-canon-ii",
+            "direccion": "Lientur esquina Valparaíso, Angol"
+        },
+        {
+            "region": "LaAraucania",
+            "nombre": "Ercilla",
+            "slug": "ercilla",
+            "direccion": "Lautaro #471, Ercilla"
+        },
+        {
+            "region": "LaAraucania",
+            "nombre": "Lautaro",
+            "slug": "lautaro",
+            "direccion": "San Patricio #143, Santa Guadalupe, Lautaro"
+        },
+        {
+            "region": "LaAraucania",
+            "nombre": "Vegas Blancas",
+            "slug": "vegas-blancas",
+            "direccion": "Vegas Blancas s/n, Angol"
+        },
+        {
+            "region": "LosRios",
+            "nombre": "Nontuela",
+            "slug": "nontuela",
+            "direccion": "Santa Laura Bajo s/n, Nontuela, Río Bueno"
+        },
+        {
+            "region": "LosRios",
+            "nombre": "Río Bueno",
+            "slug": "rio-bueno",
+            "direccion": "Pasaje Varga s/n, Villa Don Ernesto, Río Bueno"
+        }
+    ]
+}
