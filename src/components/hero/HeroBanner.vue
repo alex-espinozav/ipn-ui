@@ -1,7 +1,7 @@
 <template>
-    <section class="hero" :style="{ minHeight: height }" role="img" :aria-label="alt">
-        <picture>
-            <!-- opcional: versión WebP -->
+    <!-- pasamos la altura como CSS var -->
+    <section class="hero" :style="{ '--hero-h': height }" role="img" :aria-label="alt">
+        <picture class="hero-media">
             <source v-if="srcWebp" :srcset="srcWebp" type="image/webp" />
             <img class="hero-img" :src="src" :alt="alt" loading="eager" decoding="async" fetchpriority="high" />
         </picture>
@@ -23,8 +23,8 @@ defineProps({
     alt: { type: String, default: '' },
     title: { type: String, default: '' },
     subtitle: { type: String, default: '' },
-    overlay: { type: String, default: 'dark' }, // 'dark', 'light' o 'none'
-    height: { type: String, default: '360px' }, // '260px' | '360px' | '50vh'
+    overlay: { type: String, default: 'dark' }, // 'dark' | 'light' | 'none'
+    height: { type: String, default: '360px' }, // admite '260px' | '360px' | '50vh' etc.
     align: { type: String, default: 'center' }, // 'left' | 'center' | 'right'
 })
 </script>
@@ -33,14 +33,26 @@ defineProps({
 .hero {
     position: relative;
     width: 100%;
+    min-height: var(--hero-h, 360px);
+    /* altura efectiva */
     overflow: hidden;
+    line-height: 0;
+    /* evita espacios fantasmas */
+}
+
+/* Hacemos que la imagen cubra SIEMPRE el alto del hero */
+.hero-media,
+.hero-media .hero-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .hero-img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
-    display: block;
+    object-position: center;
 }
 
 .hero-overlay {
@@ -69,23 +81,26 @@ defineProps({
     padding: 1rem;
     text-align: center;
     color: #fff;
+    line-height: normal;
+    /* restablece para el texto */
 }
 
+/* alineaciones */
 .align-left {
     justify-items: start;
     text-align: left;
-    padding-left: 2rem;
+    padding-left: 1.25rem;
 }
 
 .align-right {
     justify-items: end;
     text-align: right;
-    padding-right: 2rem;
+    padding-right: 1.25rem;
 }
 
 .hero-title {
     font-family: var(--font-heading);
-    font-size: clamp(2rem, 5vw, 3rem);
+    font-size: clamp(1.8rem, 5vw, 3rem);
     letter-spacing: .6px;
     margin: 0 0 .3rem;
     text-shadow: 0 2px 4px rgba(0, 0, 0, .35);
@@ -95,5 +110,20 @@ defineProps({
     font-size: clamp(1rem, 2.2vw, 1.2rem);
     opacity: .95;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+
+/* Mobile: altura más baja y paddings más compactos */
+@media (max-width: 768px) {
+    .hero {
+        --hero-h: 230px;
+    }
+
+    .align-left {
+        padding-left: .75rem;
+    }
+
+    .align-right {
+        padding-right: .75rem;
+    }
 }
 </style>

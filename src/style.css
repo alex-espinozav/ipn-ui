@@ -136,3 +136,17 @@ button:active,.btn:active{ transform:translateY(1px); }
   overflow:hidden; clip:rect(0,0,0,0);
   white-space:nowrap; border:0;
 }
+
+/* ===== Mobile tuning ===== */
+@media (max-width: 768px){
+  :root{
+    --nav-height: 64px;       /* antes 100px */
+    --nav-logo-height: 52px;  /* antes 88px */
+  }
+
+  .section{ padding: 1.25rem 1rem; }  /* menos aire en móvil */
+  .container{ padding: 0 1rem; }
+
+  /* si usas breadcrumbs arriba del hero, escóndelos en móvil */
+  .breadcrumbs{ display: none; }
+}
