@@ -3,7 +3,7 @@
         <div class="inner">
             <!-- Logo + Nombre -->
             <div class="brand">
-                <img src="@/assets/images/logos/logo-ipn.png" alt="Iglesia Pentecostal Nazareth" class="footer-logo" />
+                <img src="@/assets/images/logos/Logo-IPN.png" alt="Iglesia Pentecostal Nazareth" class="footer-logo" />
                 <span class="footer-title">IPN Chile</span>
             </div>
 
