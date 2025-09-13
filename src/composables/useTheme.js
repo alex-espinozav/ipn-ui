@@ -1,11 +1,7 @@
-import { useDark, useToggle } from '@vueuse/core'
+// useTheme.ts (versión fija en claro)
+import { ref } from 'vue'
 
-export const isDark = useDark({
-  selector: 'html',
-  attribute: 'class',
-  valueDark: 'dark',
-  valueLight: '',
-  storageKey: 'ipn-ui-color-scheme',
-})
-
-export const toggleDark = useToggle(isDark)
+export const isDark = ref(false)
+export function toggleDark() {
+  // no-op: deshabilitado
+}
